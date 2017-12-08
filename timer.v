@@ -25,7 +25,7 @@ module timer(
     input reset,        // 复位信号，同步复位
     output [3:0] bcdout // BCD8421码输出
     );
-    reg [25:0] count;   // 定时1s
+    reg [25:0] count;   // 定时约1s
     reg [3:0] out;
 
     initial
@@ -52,7 +52,7 @@ module timer(
             out <= 4'd9;
         else
         begin
-            if(count==26'd50_000_000)
+            if(count==(~26'b0))
             begin
                 if (out==4'd0)
                     out <= 4'd9;
