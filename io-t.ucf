@@ -1,0 +1,31 @@
+NET "CLK" TNM_NET =CLK;
+TIMESPEC TS_CLK = PERIOD "CLK" 20ns high 50%;
+
+NET "CLK" LOC = B8;
+
+NET "SW<0>" LOC = P11;
+NET "SW<1>" LOC = L3;
+NET "SW<2>" LOC = K3;
+NET "SW<3>" LOC = B4;
+
+NET "LED<0>" LOC = M5;
+NET "LED<1>" LOC = M11;
+NET "LED<2>" LOC = P7;
+NET "LED<3>" LOC = P6;
+NET "LED<4>" LOC = N5;
+NET "LED<5>" LOC = N4;
+NET "LED<6>" LOC = P4;
+NET "LED<7>" LOC = G1;
+
+NET "CA" LOC = L14;
+NET "CB" LOC = H12;
+NET "CC" LOC = N14;
+NET "CD" LOC = N11;
+NET "CE" LOC = P12;
+NET "CF" LOC = L13;
+NET "CG" LOC = M12;
+
+NET "AN<0>" LOC = K14;
+NET "AN<1>" LOC = M13;
+NET "AN<2>" LOC = J12;
+NET "AN<3>" LOC = F12;
