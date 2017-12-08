@@ -18,12 +18,14 @@
 // Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
+
+// 定时减计数器
 module timer(
-    input clk,
-    input reset,
-    output [3:0] bcdout
+    input clk,          // 输入时钟，BASYS2开发板上的时钟为50MHZ
+    input reset,        // 复位信号，同步复位
+    output [3:0] bcdout // BCD8421码输出
     );
-    reg [25:0] count;
+    reg [25:0] count;   // 定时约1s
     reg [3:0] out;
 
     initial

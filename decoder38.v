@@ -18,10 +18,12 @@
 // Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
+
+// 3线-8线译码器
 module decoder38(
-    input [2:0] in,
-    output [7:0] out,
-    input en
+    input [2:0] in,     // 3位二进制码输入
+    output [7:0] out,   // 8位最小项输出
+    input en            // 使能输入，高电平有效
     );
 
     assign out = (en == 0) ? 8'b0:

@@ -18,16 +18,18 @@
 // Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
+
+// 数码管显示译码器
 module digitDecoder(
-    input [3:0] bcdin,
-    output a,
+    input [3:0] bcdin,  // BCD8421码输入
+    output a,           // 数码管输出，低电平有效
     output b,
     output c,
     output d,
     output e,
     output f,
     output g,
-    input blank
+    input blank         // 灭灯输入，高电平灭灯
     );
 
     assign {a,b,c,d,e,f,g} = (blank == 1) ? 7'b1111111 :
