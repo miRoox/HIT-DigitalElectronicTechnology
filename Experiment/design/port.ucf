@@ -1,0 +1,21 @@
+NET "clk" TNM_NET =clk;
+TIMESPEC TS_CLK = PERIOD "clk" 20ns high 50%;
+
+NET "clk" LOC = B8;
+
+NET "btn<0>" LOC = G12;
+NET "btn<1>" LOC = C11;
+
+NET "ca" LOC = L14;
+NET "cb" LOC = H12;
+NET "cc" LOC = N14;
+NET "cd" LOC = N11;
+NET "ce" LOC = P12;
+NET "cf" LOC = L13;
+NET "cg" LOC = M12;
+NET "dp" LOC = N13;
+
+NET "an<0>" LOC = K14;
+NET "an<1>" LOC = M13;
+NET "an<2>" LOC = J12;
+NET "an<3>" LOC = F12;
