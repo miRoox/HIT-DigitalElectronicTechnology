@@ -1,3 +1,5 @@
 # HIT-DigitalElectronicTechnology
-哈工大《数字电子技术基础》+《数字电子技术基础实验》
-非常好用
+
++ Homework - 大作业
++ Experiment - 实验
+    - design - 自主设计实验
