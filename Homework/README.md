@@ -21,7 +21,7 @@
 
 主模块提供外部I/O的接口，并将各功能模块的实例连接起来。
 
-![主模块功能示意图](/mainModule.png)
+![主模块功能示意图](/Homework/mainModule.png)
 
 主模块功能示意图
 
